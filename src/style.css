@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+}
+
+html,
+body,
+#app {
+    height: 100%;
+    width: 100%;
+}
+
+[popover] {
+    font-size: 1.2rem;
+}
+
+[popover]:popover-open::backdrop {
+    background-color: rgb(0 0 0 / 50%);
+}
+
+#create-user-modal:popover-open,
+#create-modal:popover-open,
+#modal:popover-open {
+    @apply w-1/2 h-[90%] max-w-[800px] m-auto p-10 rounded-md flex flex-col items-center;
+}
+
+#create-modal:popover-open {
+    height: 90%;
+    overflow: scroll;
+}
+
+#create-user-modal:popover-open {
+    @apply h-[600px];
+}
+
+.no-scroll {
+    @apply h-full overflow-hidden;
+}
