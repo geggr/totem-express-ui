@@ -8,8 +8,6 @@ export async function find_user(cpf) {
 }
 
 export async function register({ name, email, cpf }) {
-    console.log("Inside Register")
-    console.log(http)
     return http.create({
         params: {
             name,
