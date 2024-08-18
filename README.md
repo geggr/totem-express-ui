@@ -25,7 +25,7 @@ Desta forma, você só precisa acessar a [tela principal da aplicação](http://
 |------|-----------|
 | [Inicio Totem](http://localhost:5173/) | Tela inicial do totem para identificação do usuário
 | [Admin de Produtos](http://localhost:5173/admin/products) | Tela administrativa de produtos cadastrados no totem
-| [Listagem de Pedidos](http://localhost:5173/admin/order) | Tela administrativa de listagem de pedidos realizados no totem
+| [Listagem de Pedidos](http://localhost:5173/admin/orders) | Tela administrativa de listagem de pedidos realizados no totem
 
 Ademais, há outras rotas mapeadas para navegação do usuário durante a criação do pedido, como a rota de seleção de produtos e confirmação do pedido.
 
